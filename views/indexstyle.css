@@ -124,20 +124,21 @@
 	background-color: rgb(41,41,41);
 }
 .logo {
-	background-image: url("Melody Logo2.jpg");
-	background-size: 119px;
+	background-image: url("melodygreen.jpg");
+	background-size: 75px;
 	background-repeat: no-repeat;
-	background-position: 49% 20%;
+	background-position: 40% 40%;
 	position: absolute;
-	left: 2%;
-	width: 7.5%;
+	left: 1%;
+	width: 60px;
 	height: 50px;
 	border-right: 2px solid rgb(80,160,50);
 	border-left: 2px solid  rgb(80,160,50);
+	
 }
 .logo:hover{
 	cursor: pointer;
-	background-size: 131px;
+	background-size: 80px;
 }
 #power:hover{
 	cursor: pointer;
@@ -262,7 +263,7 @@
 .fname{
 	text-align: center;
 	position: relative;
-	bottom: 55%;
+	bottom: 60%;
 	color: #e6e6e6;
 	font-size: 13px;
 }
