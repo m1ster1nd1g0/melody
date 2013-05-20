@@ -138,7 +138,6 @@
 }
 .logo:hover{
 	cursor: pointer;
-	background-size: 80px;
 }
 #power:hover{
 	cursor: pointer;
@@ -166,22 +165,25 @@
 }
 #power:active{
 	cursor: pointer;
-		background-size: 24px;
+		background-size: 18px;
 }
 #feed:active{
 	cursor: pointer;
 		background-color: #ccddcc;
-		background-size: 76%;
+		background-size: 68%;
 }
 #inv:active{
 	cursor: pointer;
 		background-color: #ccddcc;
-		background-size: 55%;
+		background-size: 48%;
 }
 #tree:active{
 	cursor: pointer;
 		background-color: #ccddcc;
-		background-size: 44%;
+		background-size: 39%;
+}
+.logo:active{
+	-webkit-transform: scale(0.95);
 }
 .username {
 	display: none;
