@@ -17,6 +17,7 @@
 }
 
 #power{
+	/*
 	border-right: 2px solid rgb(80,160,50);
 	border-left: 2px solid  rgb(80,160,50);
 	position: absolute;
@@ -28,7 +29,9 @@
 	background-size: 20px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	*/
 }
+
 #searchbar{
 	position: absolute;
 	width: 20%;
