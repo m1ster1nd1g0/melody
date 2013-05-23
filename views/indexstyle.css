@@ -1,4 +1,4 @@
-#container{
+.container{
 	overflow: hidden;
 	position: fixed;
 	background: rgb(80,170,50) ;
@@ -7,7 +7,7 @@
 	z-index: -5;
 }
 
-#navbar {
+.navbar {
 	border-radius: 0px 0px 0px 0px;
 	background-color: rgb(80,170,50);
 	width: 100%;
@@ -31,14 +31,16 @@
 	background-position: 50% 50%;
 	*/
 }
-
-#searchbar{
+#feed{
+	-webkit-transition: 500ms;
+}
+.searchbar{
 	position: absolute;
 	width: 20%;
 	height: 50px;
 	left: 59%;
 }
-#search {
+.search{
 	position: absolute;
 	background: #E6E6E6;
 	background: rgba(255,255,255);
@@ -50,7 +52,7 @@
 	top: 15%;
 	width: 100%;
 }
-#feed{
+.feed{
 	border-left: 1px solid #b2b2b2;
 	position: absolute;
 	width: 7%;
@@ -64,7 +66,7 @@
 	background-position: 30% 50%;
 
 }
-#tree{
+.tree{
 	border-left: 2px solid #e6e6e6;
 	position: absolute;
 	width: 8%;
@@ -73,11 +75,11 @@
 	left: 86.2%;
 	background-color: #cccccc;
 	background-image: url('tree.svg');
-	background-size: 40%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 45% 50%;
 }
-#inv{
+.inv{
 	border-left: 2px solid #e6e6e6;
 	position: absolute;
 	width: 7%;
@@ -91,7 +93,7 @@
 	background-position: 45% 50%;
 }
 
-#profile {
+.profile {
 	padding: 0;
 	margin: 0;
 	float: left;
@@ -103,7 +105,7 @@
 	box-shadow: 0px 1px 2px #e6e6e6;
 
 }
-#center{
+.feedcenter{
 	border-left: .5px solid #b2b2b2;
 	border-right: .5px #b2b2b2 solid 1.0;
 	padding: 0;
@@ -116,7 +118,34 @@
 	background: #CCCCCC ;
 	opacity: 0.9;
 }
-#funcbar{
+.treecenter{
+	border-left: .5px solid #b2b2b2;
+	border-right: .5px #b2b2b2 solid 1.0;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: red ;
+	opacity: 0.9;
+}
+
+.invcenter{
+	border-left: .5px solid #b2b2b2;
+	border-right: .5px #b2b2b2 solid 1.0;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: blue ;
+	opacity: 0.9;
+}
+.funcbar{
 	margin: 0;
 	padding: 0;
 	float: left;
@@ -142,19 +171,19 @@
 .logo:hover{
 	cursor: pointer;
 }
-#power:hover{
+.power:hover{
 	cursor: pointer;
 	background-color: rgb(100,170,50);
 }
-#feed:hover{
+.feed:hover{
 	cursor: pointer;
 		background-color: #ccddcc;
 }
-#inv:hover{
+.inv:hover{
 	cursor: pointer;
 		background-color: #ccddcc;
 }
-#tree:hover{
+.tree:hover{
 	cursor: pointer;
 		background-color: #ccddcc;
 }
@@ -166,24 +195,24 @@
 	cursor: pointer;
 	background: rgba(61,61,61,0.6);
 }
-#power:active{
+.power:active{
 	cursor: pointer;
 		background-size: 18px;
 }
-#feed:active{
+.feed:active{
 	cursor: pointer;
 		background-color: #ccddcc;
 		background-size: 68%;
 }
-#inv:active{
+.inv:active{
 	cursor: pointer;
 		background-color: #ccddcc;
 		background-size: 48%;
 }
-#tree:active{
+.tree:active{
 	cursor: pointer;
 		background-color: #ccddcc;
-		background-size: 39%;
+		background-size: 48%;
 }
 .logo:active{
 	-webkit-transform: scale(0.95);
